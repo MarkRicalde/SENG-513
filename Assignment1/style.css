@@ -1,0 +1,132 @@
+
+body {
+	background: #e3e3e3;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.deck {
+	display: grid;
+	grid-template-columns: 30% 40% 30%;
+	padding: 10px;
+}
+
+.deck-list {
+	padding: 20px;
+	 text-align: center;
+}
+
+.champ-pictures {
+	text-align: center;
+	padding: 20px;
+}
+
+.deck-guide {
+	padding: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+img {
+	width: 40%;
+	height: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.nav li a.active {
+  color: white;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  color: white;
+}
+
+.noxus {
+	background-color: red;
+}
+
+.home {
+	background-color: #000058;
+}
+
+.frel { 
+	background-color: #66ccff;
+ }
+
+ .demacia {
+ 	background-color: #E5DF13;
+ }
+
+ .ionia {
+ 	background-color: #ffb7c5;
+ }
+
+ .pnz {
+ 	background-color: #ffa500;
+ }
+
+ .si { 
+ 	background-color: #009a00;
+  }
